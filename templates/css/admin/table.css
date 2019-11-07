@@ -1,0 +1,44 @@
+/*
+ *  Created by PhpStorm.
+ *  User: Артём
+ *  Date time: 20.07.19 16:23
+ *
+ */
+
+div#servers-list_length {
+    float: left;
+}
+
+div#servers-list_paginate {
+    float: right;
+}
+
+div#servers-list_filter {
+    float: right;
+}
+
+div#servers-list_info {
+    float: left;
+}
+
+#servers-list td:hover {
+    cursor: pointer;
+}
+
+
+div#servers-list_length {
+    float: left;
+}
+
+div#servers-list_paginate {
+    float: right;
+}
+
+div#servers-list_filter {
+    float: right;
+}
+
+div#servers-list_info {
+    float: left;
+}
+

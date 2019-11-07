@@ -1,0 +1,1704 @@
+{
+  "group": [
+  ],
+  "channel": [
+    {
+      "channel_name": "\u265b \u041a\u043e\u043c\u043d\u0430\u0442\u0430 \u0433\u043b\u0430\u0432\u044b",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": 0,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "\u265c \u0428\u0442\u0430\u0431",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": 0,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "\u265e \u041e\u0444\u0438\u0446\u0435\u0440\u0441\u043a\u0430\u044f",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": 0,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "[*spacer0]\u2580",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": 0,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "[cspacer0]\u2554\u2566\u2566\u2566\u2550\u2566\u2557\u2554\u2550\u2566\u2550\u2566\u2550\u2550\u2566\u2550\u2557",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": 0,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "[cspacer0]\u2551\u2551\u2551\u2551\u2569\u2563\u255a\u2563\u2550\u2563\u2551\u2551\u2551\u2551\u2551\u2569\u2563",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": 0,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "[cspacer0]\u255a\u2550\u2550\u2569\u2550\u2569\u2550\u2569\u2550\u2569\u2550\u2569\u2569\u2569\u2569\u2550\u255d",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": 0,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "[cspacer]\u2554\u2665\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": 0,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "[cspacer]\u2620\u262f\u2622 \u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043a\u043b\u0430\u043d\u0430 \u2622\u262f\u2620",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": 0,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "[cspacer]\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2665\u255d",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": 0,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "[*spacer0]\u2022",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": 0,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "[cspacer]\u2022\u00b0\u2605 \u041f\u0440\u0438\u0445\u043e\u0436\u043a\u0430 \u2605\u00b0\u2022",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 1,
+      "channel_name_phonetic": null,
+      "channel_maxclients": -1,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 1,
+      "total_clients": 1,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "[*spacer1]\u2022",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": 0,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "[cspacer]\u22c6\u2605\u22c6\u041f\u0443\u0441\u0442\u043e\u22c6\u2605\u22c6",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "\u2554\u25ba\u2605\u041f\u0443\u0441\u0442\u043e \u2776",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": -1,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ],
+      "parentChannel": "[cspacer]\u22c6\u2605\u22c6\u041f\u0443\u0441\u0442\u043e\u22c6\u2605\u22c6"
+    },
+    {
+      "channel_name": "\u2560\u25ba\u2605\u041f\u0443\u0441\u0442\u043e \u2777",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": -1,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ],
+      "parentChannel": "[cspacer]\u22c6\u2605\u22c6\u041f\u0443\u0441\u0442\u043e\u22c6\u2605\u22c6"
+    },
+    {
+      "channel_name": "\u255a\u25ba\u2605\u041f\u0443\u0441\u0442\u043e \u2778",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": -1,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ],
+      "parentChannel": "[cspacer]\u22c6\u2605\u22c6\u041f\u0443\u0441\u0442\u043e\u22c6\u2605\u22c6"
+    },
+    {
+      "channel_name": "[*spacer2]\u2022",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": 0,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "[cspacer]\u22c6\u2605\u22c6\u0421\u043c\u0435\u043d\u0438 \u043c\u0435\u043d\u044f\u22c6\u2605\u22c6",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "\u2554\u25ba\u2605\u0421\u043c\u0435\u043d\u0438 \u043c\u0435\u043d\u044f \u2776",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": -1,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ],
+      "parentChannel": "[cspacer]\u22c6\u2605\u22c6\u0421\u043c\u0435\u043d\u0438 \u043c\u0435\u043d\u044f\u22c6\u2605\u22c6"
+    },
+    {
+      "channel_name": "\u2560\u25ba\u2605\u0421\u043c\u0435\u043d\u0438 \u043c\u0435\u043d\u044f \u2777",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": -1,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ],
+      "parentChannel": "[cspacer]\u22c6\u2605\u22c6\u0421\u043c\u0435\u043d\u0438 \u043c\u0435\u043d\u044f\u22c6\u2605\u22c6"
+    },
+    {
+      "channel_name": "\u255a\u25ba\u2605\u0421\u043c\u0435\u043d\u0438 \u043c\u0435\u043d\u044f \u2778",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": -1,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ],
+      "parentChannel": "[cspacer]\u22c6\u2605\u22c6\u0421\u043c\u0435\u043d\u0438 \u043c\u0435\u043d\u044f\u22c6\u2605\u22c6"
+    },
+    {
+      "channel_name": "[*spacer3]\u2022",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": 0,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "[cspacer]\u22c6\u2605\u22c6\u0428\u0430\u0431\u043b\u043e\u043d\u22c6\u2605\u22c6",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "\u2554\u25ba\u2605\u0428\u0430\u0431\u043b\u043e\u043d \u2776",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": -1,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ],
+      "parentChannel": "[cspacer]\u22c6\u2605\u22c6\u0428\u0430\u0431\u043b\u043e\u043d\u22c6\u2605\u22c6"
+    },
+    {
+      "channel_name": "\u2560\u25ba\u2605\u0428\u0430\u0431\u043b\u043e\u043d \u2777",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": -1,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ],
+      "parentChannel": "[cspacer]\u22c6\u2605\u22c6\u0428\u0430\u0431\u043b\u043e\u043d\u22c6\u2605\u22c6"
+    },
+    {
+      "channel_name": "\u255a\u25ba\u2605\u0428\u0430\u0431\u043b\u043e\u043d \u2778",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": -1,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ],
+      "parentChannel": "[cspacer]\u22c6\u2605\u22c6\u0428\u0430\u0431\u043b\u043e\u043d\u22c6\u2605\u22c6"
+    },
+    {
+      "channel_name": "[*spacer1]\u2580",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "[cspacer]\u2605\u3010A\u3011way\u3010F\u3011rom\u3010K\u3011eyboard \u2605",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 0,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": 0,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_join_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_subscribe_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_description_view_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 0,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ]
+    },
+    {
+      "channel_name": "\u2554\u25ba\u2605\u0421\u043a\u043e\u0440\u043e \u0431\u0443\u0434\u0443",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 1000,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": -1,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 1000,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ],
+      "parentChannel": "[cspacer]\u2605\u3010A\u3011way\u3010F\u3011rom\u3010K\u3011eyboard \u2605"
+    },
+    {
+      "channel_name": "\u2560\u25ba\u2605\u041e\u0431\u0449\u0435\u043d\u0438\u0435",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 1000,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": -1,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 1000,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ],
+      "parentChannel": "[cspacer]\u2605\u3010A\u3011way\u3010F\u3011rom\u3010K\u3011eyboard \u2605"
+    },
+    {
+      "channel_name": "\u255a\u25ba\u2605\u041d\u0430\u0434\u043e\u043b\u0433\u043e",
+      "channel_topic": null,
+      "channel_description": null,
+      "channel_needed_talk_power": 1000,
+      "channel_codec_quality": 6,
+      "channel_codec": 4,
+      "channel_flag_semi_permanent": 0,
+      "channel_flag_permanent": 1,
+      "channel_flag_default": 0,
+      "channel_name_phonetic": null,
+      "channel_maxclients": -1,
+      "channel_maxfamilyclients": -1,
+      "total_clients_family": 0,
+      "total_clients": 0,
+      "permList": [
+        {
+          "permsid": "i_channel_needed_permission_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_modify_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_channel_needed_delete_power",
+          "permvalue": 75,
+          "permnegated": 0,
+          "permskip": 0
+        },
+        {
+          "permsid": "i_client_needed_talk_power",
+          "permvalue": 1000,
+          "permnegated": 0,
+          "permskip": 0
+        }
+      ],
+      "parentChannel": "[cspacer]\u2605\u3010A\u3011way\u3010F\u3011rom\u3010K\u3011eyboard \u2605"
+    }
+  ]
+}

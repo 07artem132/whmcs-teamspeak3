@@ -1,0 +1,4274 @@
+[
+  {
+    "permList": [
+      {
+        "permsid": "b_virtualserver_info_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_connectioninfo_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_channel_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_channel_search",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_client_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_client_search",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_client_dblist",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_client_dbsearch",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_client_dbinfo",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_permission_find",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_custom_search",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_token_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_token_add",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_token_use",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_token_delete",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_log_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_log_add",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_join_ignore_password",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_notify_register",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_notify_unregister",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_name",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_welcomemessage",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_password",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_default_servergroup",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_default_channelgroup",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_default_channeladmingroup",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_channel_forced_silence",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_complain",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_antiflood",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_hostmessage",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_hostbanner",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_hostbutton",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_needed_identity_security_level",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_priority_speaker_dimm_modificator",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_icon_id",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_weblist",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_codec_encryption_mode",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_temporary_passwords",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_channel_temp_delete_delay_default",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_nickname",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_modify_integrations",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_max_depth",
+        "permvalue": 10,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_permission_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_info_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_create_child",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_create_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_create_semi_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_create_temporary",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_create_with_topic",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_create_with_description",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_create_with_password",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_create_with_banner",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_create_modify_with_codec_opusvoice",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_create_modify_with_codec_opusmusic",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_create_modify_with_codec_maxquality",
+        "permvalue": 10,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_create_modify_with_codec_latency_factor_min",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_create_with_maxclients",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_create_with_maxfamilyclients",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_create_with_sortorder",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_create_with_default",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_create_with_needed_talk_power",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_create_modify_with_temp_delete_delay",
+        "permvalue": 86400,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_parent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_make_default",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_make_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_make_semi_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_make_temporary",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_name",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_topic",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_description",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_password",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_banner",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_codec",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_codec_quality",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_codec_latency_factor",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_maxclients",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_maxfamilyclients",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_sortorder",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_needed_talk_power",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_make_codec_encrypted",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_modify_temp_delete_delay",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_delete_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_delete_semi_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_delete_temporary",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_delete_flag_force",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_delete_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_semi_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_temporary",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_ignore_password",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_ignore_maxclients",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_join_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_subscribe_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_description_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_icon_id",
+        "permvalue": 1665711959,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_max_icon_filesize",
+        "permvalue": 8192,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_icon_manage",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_group_is_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_auto_update_type",
+        "permvalue": 45,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_auto_update_max_value",
+        "permvalue": 45,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_sort_id",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_servergroup_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_servergroup_permission_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_servergroup_client_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_channelgroup_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_channelgroup_permission_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_channelgroup_client_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_client_permission_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_channel_permission_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_channelclient_permission_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_servergroup_create",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_channelgroup_create",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_member_add_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_add_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_member_remove_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_remove_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_permission_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_servergroup_delete",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_channelgroup_delete",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_permission_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_permission_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_clones_uid",
+        "permvalue": 10,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_avatar_filesize",
+        "permvalue": 200000,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_channel_subscriptions",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_skip_channelgroup_permissions",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_ignore_bans",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_ignore_antiflood",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_use_reserved_slot",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_use_channel_commander",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_request_talker",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_avatar_delete_other",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_ignore_sticky",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_info_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_permissionoverview_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_permissionoverview_own",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_remoteaddress_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_serverquery_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_serverquery_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_custom_info_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_kick_from_server_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_server_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_kick_from_channel_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_channel_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_ban_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_ban_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_move_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_move_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_complain_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_complain_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_complain_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_complain_delete_own",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_complain_delete",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_ban_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_ban_create",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_ban_delete_own",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_ban_delete",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_ban_max_bantime",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_private_textmessage_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_server_textmessage_send",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_channel_textmessage_send",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_offline_textmessage_send",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_talk_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_poke_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_set_flag_talker",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_whisper_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_whisper_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_modify_description",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_modify_own_description",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_modify_dbproperties",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_delete_dbproperties",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_create_modify_serverquery_login",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_ft_ignore_password",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_ft_transfer_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_upload_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_download_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_delete_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_rename_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_browse_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_directory_create_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_quota_mb_download_per_client",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_quota_mb_upload_per_client",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_info_view",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_connectioninfo_view",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_channel_list",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_channel_search",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_client_list",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_client_search",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_client_dblist",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_client_dbsearch",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_client_dbinfo",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_permission_find",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_custom_search",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_token_list",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_token_add",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_token_use",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_token_delete",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_log_view",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_log_add",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_join_ignore_password",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_notify_register",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_notify_unregister",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_name",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_welcomemessage",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_password",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_default_servergroup",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_default_channelgroup",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_default_channeladmingroup",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_channel_forced_silence",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_complain",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_antiflood",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_hostmessage",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_hostbanner",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_hostbutton",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_needed_identity_security_level",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_priority_speaker_dimm_modificator",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_icon_id",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_weblist",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_codec_encryption_mode",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_temporary_passwords",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_temporary_passwords_own",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_channel_temp_delete_delay_default",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_nickname",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_modify_integrations",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_min_depth",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_max_depth",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_group_inheritance_end",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_permission_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_needed_permission_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_info_view",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_child",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_permanent",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_semi_permanent",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_temporary",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_with_topic",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_with_description",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_with_password",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_with_banner",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_modify_with_codec_opusvoice",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_modify_with_codec_opusmusic",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_modify_with_codec_maxquality",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_modify_with_codec_latency_factor_min",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_with_maxclients",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_with_maxfamilyclients",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_with_sortorder",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_with_default",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_with_needed_talk_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_modify_with_force_password",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_create_modify_with_temp_delete_delay",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_parent",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_make_default",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_make_permanent",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_make_semi_permanent",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_make_temporary",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_name",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_topic",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_description",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_password",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_banner",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_codec",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_codec_quality",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_codec_latency_factor",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_maxclients",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_maxfamilyclients",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_sortorder",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_needed_talk_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_needed_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_make_codec_encrypted",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_modify_temp_delete_delay",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_delete_permanent",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_delete_semi_permanent",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_delete_temporary",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_delete_flag_force",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_delete_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_needed_delete_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_join_permanent",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_join_semi_permanent",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_join_temporary",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_join_ignore_password",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_join_ignore_maxclients",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_join_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_needed_join_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_subscribe_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_needed_subscribe_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_description_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_channel_needed_description_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_icon_id",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_max_icon_filesize",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_icon_manage",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_group_is_permanent",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_group_auto_update_type",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_group_sort_id",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_group_show_name_in_tree",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_servergroup_list",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_servergroup_permission_list",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_servergroup_client_list",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_channelgroup_list",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_channelgroup_permission_list",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_channelgroup_client_list",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_client_permission_list",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_channel_permission_list",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_channelclient_permission_list",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_servergroup_create",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_channelgroup_create",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_group_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_group_needed_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_group_member_add_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_group_needed_member_add_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_group_member_remove_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_group_needed_member_remove_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_permission_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_servergroup_delete",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_virtualserver_channelgroup_delete",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_permission_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_needed_permission_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_max_clones_uid",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_max_idletime",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_max_avatar_filesize",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_max_channel_subscriptions",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_is_priority_speaker",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_skip_channelgroup_permissions",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_force_push_to_talk",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_ignore_bans",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_ignore_antiflood",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_use_reserved_slot",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_use_channel_commander",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_request_talker",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_avatar_delete_other",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_is_sticky",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_ignore_sticky",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_info_view",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_permissionoverview_view",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_permissionoverview_own",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_remoteaddress_view",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_serverquery_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_needed_serverquery_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_custom_info_view",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_kick_from_server_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_needed_kick_from_server_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_kick_from_channel_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_needed_kick_from_channel_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_ban_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_needed_ban_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_move_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_needed_move_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_complain_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_needed_complain_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_complain_list",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_complain_delete_own",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_complain_delete",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_ban_list",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_ban_create",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_ban_delete_own",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_ban_delete",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_ban_max_bantime",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_private_textmessage_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_needed_private_textmessage_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_server_textmessage_send",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_channel_textmessage_send",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_offline_textmessage_send",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_talk_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_needed_talk_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_poke_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_needed_poke_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_set_flag_talker",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_whisper_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_needed_whisper_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_modify_description",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_modify_own_description",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_modify_dbproperties",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_delete_dbproperties",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_client_create_modify_serverquery_login",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_ignore_password",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_transfer_list",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_file_upload_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_needed_file_upload_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_file_download_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_needed_file_download_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_file_delete_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_needed_file_delete_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_file_rename_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_needed_file_rename_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_file_browse_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_needed_file_browse_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_directory_create_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_needed_directory_create_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_quota_mb_download_per_client",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_needed_modify_power_ft_quota_mb_upload_per_client",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      }
+    ],
+    "name": "Server Admin",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8\/9hAAACSUlEQVR42nVTA6wmYRC72Mazbdu2bduWorNt27Zt27alqLfd3LfPTfpzp6POCEJF28pI4kZVfZuvahaO0PT0hk50KPQzYqGfFQfdxAhoBwZAw8ENqib231T0rDcxRgSbSPysomsNBvNB+7o8jN6\/DudePsC5Vw8w8\/QuxEzqhG58ODQc3aFqYAvGMJYCGyVC1cgOml4+UnA+br9\/gaGw+MhuaAX4Q9XYngLkRgp8lShn140Nw9ILh0Dc+fgStYeWSVyK868fgpi2a8NAge8UAKlu7cye5ZKJ\/L1zYTmzFiYdeTBuyMLIjctgnZMMDRcP0YLMXgErJ+ilROHgo2tKBaEbx8C0uwCGJcnQS46Elq8v1CydwHkNElAzsYd2SCCyFo5FXxx8dgMde1fAqDodOpEhULdzHVyBMkR3L+jnxqN993J8+\/sLAqKi2Kld0AkPFlUMqMDUgQJyn4alKXAaVYWOAyuVARIvv3+CfWMBND28WMWAGdi6yOq3nj+WBQwKEyUmwWxUKbpOrINA+46l0A4N4ib6COhYQcPZA7YlGSDGHFoPk7ZcWci0pxDWS1sgQFPpRIVwZn0roIA7DPITIDDryn7k75pDL8iDFKhYOxPawQFSBXaKwFfhA93ESGy+cQbD4bY0SLYme0HfRjZSr5WNhZXzsPnWWQzEljvn4NBcIDtRzcyBbStWNhXHxD8oopcaDaPaDGQvHo\/sJePh2FkC\/fQYGkm2vKqejTgm074XuVES+cZKuBGulNlInjd\/4+T5zP+qTRj7D6b5HNmf7b8aAAAAAElFTkSuQmCC"
+  },
+  {
+    "permList": [
+      {
+        "permsid": "b_virtualserver_connectioninfo_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_virtualserver_token_use",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_semi_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_temporary",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_ignore_password",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_ignore_maxclients",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_join_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_subscribe_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_description_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_icon_id",
+        "permvalue": -590140469,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_group_is_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_auto_update_type",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_sort_id",
+        "permvalue": 2,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_member_add_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_add_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_member_remove_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_remove_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_clones_uid",
+        "permvalue": 5,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_avatar_filesize",
+        "permvalue": 200000,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_channel_subscriptions",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_ignore_antiflood",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_use_reserved_slot",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_use_channel_commander",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_avatar_delete_other",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_info_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_remoteaddress_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_serverquery_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_kick_from_server_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_server_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_kick_from_channel_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_channel_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_ban_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_ban_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_move_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_move_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_complain_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_complain_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_complain_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_complain_delete_own",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_ban_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_ban_delete_own",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_ban_delete",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_ban_max_bantime",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_private_textmessage_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_server_textmessage_send",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_channel_textmessage_send",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_offline_textmessage_send",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_talk_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_poke_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_set_flag_talker",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_whisper_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_whisper_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_modify_description",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_modify_own_description",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_ft_ignore_password",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_upload_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_download_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_delete_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_rename_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_browse_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_directory_create_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_quota_mb_download_per_client",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_quota_mb_upload_per_client",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      }
+    ],
+    "name": "\u0410\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u043e\u0440",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8\/9hAAACRklEQVR4AYVTAxMdYQzsr3i2X23btm3btm0Natu2bduj2qPtt+lcrm\/UzJyS2w2+TRaaM5Ajbq4t5vrsDOaAK54H3nxF4C9TBoFK5eEvXRqe3IXgiuaGiX\/mv8RY4KS5PpoLAk7kga9wcYQb10SLpZOx9cYZ1JoxDKHaVeDJW1hI+C8xxJKAbODFoLdgMUSa1cbQvSth2ZffP1B7wWgEa1SCJ0cBOEM5LZItJGBJ4vTkLIhQnarovmmRgt98\/aAk+Qa1Zzts0SL4SgLwopPB\/MM7yc+0VXdPIeeKQdj++DJo88\/uQbhRDSZiu4IjAT\/olL4XXNwH2qV3T5BtVg+kxnZE0RUjtIp4z6bwFSsBVziXTeCK5BJnok9zzd776Epkm9MT6UmdpQoS0lqtnoFA5QoybJsgkRfBqhXRY9sSWDb14i4svH6IQF5KvODSfoTqV4c7W36bwJ29AMINq2Ph1YP4n3EekRZ1RBdKwI9Iq7o48vJ2xvRZQeut89D2wBICdTbR9vWpCSXgB50MKrjo6pGI92iCSPPaSA5uLSRK0KGBKNUmyGMI2tZTAj45fc7FX7IUYh0bciYZFfxL8NmTo6Cc7\/b7F2EZ9UBd+IqWIEAFdeTpTYSb1IQnV0EV0hZ3Mi8C5cuh6\/LZSjBn50bJzuMdsHSe+ifsWiML5k7nUymnjA4+cpAMhJvWkgyBCuXYGgfMrWSFjLEt+rk3H4n9u5HRXCkj5W3u7Pm\/Msj+uDQUCyXOM+egeblzFPjqSubZ7krnTRP7B1uyLj1TqlsOAAAAAElFTkSuQmCC"
+  },
+  {
+    "permList": [
+      {
+        "permsid": "b_virtualserver_token_use",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_semi_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_temporary",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_ignore_maxclients",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_join_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_subscribe_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_description_view_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_icon_id",
+        "permvalue": -1356768511,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_group_is_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_auto_update_type",
+        "permvalue": 20,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_sort_id",
+        "permvalue": 3,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_member_add_power",
+        "permvalue": 55,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_add_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_member_remove_power",
+        "permvalue": 55,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_remove_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_clones_uid",
+        "permvalue": 3,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_avatar_filesize",
+        "permvalue": 200000,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_channel_subscriptions",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_use_channel_commander",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_info_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_serverquery_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_kick_from_server_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_server_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_kick_from_channel_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_channel_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_ban_power",
+        "permvalue": 40,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_ban_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_move_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_move_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_complain_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_complain_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_complain_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_complain_delete_own",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_ban_list",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_ban_delete_own",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_ban_max_bantime",
+        "permvalue": 172800,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_private_textmessage_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_server_textmessage_send",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_channel_textmessage_send",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_offline_textmessage_send",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_talk_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_poke_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_set_flag_talker",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_whisper_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_whisper_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_modify_own_description",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_upload_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_download_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_delete_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_rename_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_browse_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_directory_create_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_quota_mb_download_per_client",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_quota_mb_upload_per_client",
+        "permvalue": 200,
+        "permnegated": 0,
+        "permskip": 0
+      }
+    ],
+    "name": "\u041c\u043e\u0434\u0435\u0440\u0430\u0442\u043e\u0440",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8\/9hAAACYElEQVR4AYxTA4wkQRTtXGxnt3ts256zbdu2bdu2bTM427bt6N38yk2v8ZJy\/ffN6R6OLSGtWc4pTST2yyuU+SGvWBayZBKCw49MrZMN2tMdvcnLl\/khTcT3S6uVcZAsxwfDVkkg8tXRqgFmH92BOad2o\/rUwVBUqwCJL0yD9uxuzsndmH1kBxwt60Pij3zlvQELx1u8O1OsGLhtKdL49vcXaswfCVWDajRoz+7S6LxmNuRlSyPT7N3J8TbfN1XdKph7\/gCy487HlzBP6YzA7D5snx1zz+2HsnZl8FbvD05wBqBuVhM7HlwA4eX3T0hj6JlNmHflcJ57ulM3rgHB7gcnuIPQtKmD868fgtDj2KrsZKLpdXfPFP\/QqmlVG4IrCE7iCUHTtq742OrgQvY5O+jNvrJ\/DgKSIVlGoG1fLweBbXFOv8kV29K+OQhIJl+Clrvmwjyho+g7IbRsEMzTuhSPYPDx9TAMboXm66eDcPvDSxiHt4FpXAeyKg9BnhjMu3QI+l5NoO1YHy8+vceKk\/uh7dQApjHtQMgTA4okRTRNcPTZDei6NYKiagUqWxqsmMrMG5yToOX\/LKRy+U1VvypWXTkhpo7Mk0bjSFUpqE4Ulcuh2copIgEVHRWfYPf94Hirb6e8XGmM3bkWacS6tgHVR4bChkydC7JEErP2bRHfB2xYBHmZ0ikFVMqBkE1wh75Sp5ElyjqVIY2ltJs8YARqB7OCXFE3qk6D7QVX4AvvCVhZOwvJmJ13B3entH6nzyRMghlyGzKUdmaFYPOxoAme4Hfe6d8lRCP\/pgvUywgA7UF+H4oNMscAAAAASUVORK5CYII="
+  },
+  {
+    "permList": [
+      {
+        "permsid": "b_virtualserver_token_use",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_semi_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_temporary",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_join_power",
+        "permvalue": 40,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_subscribe_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_description_view_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_icon_id",
+        "permvalue": -1856345498,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_group_is_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_auto_update_type",
+        "permvalue": 20,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_sort_id",
+        "permvalue": 4,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_add_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_remove_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_clones_uid",
+        "permvalue": 2,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_avatar_filesize",
+        "permvalue": 200000,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_channel_subscriptions",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_info_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_serverquery_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_server_power",
+        "permvalue": 40,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_kick_from_channel_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_channel_power",
+        "permvalue": 40,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_ban_power",
+        "permvalue": 40,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_move_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_move_power",
+        "permvalue": 40,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_complain_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_complain_power",
+        "permvalue": 40,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_private_textmessage_power",
+        "permvalue": 40,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_channel_textmessage_send",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_offline_textmessage_send",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_talk_power",
+        "permvalue": 40,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_poke_power",
+        "permvalue": 40,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_whisper_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_whisper_power",
+        "permvalue": 40,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_modify_own_description",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_download_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_browse_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_quota_mb_download_per_client",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      }
+    ],
+    "name": "\u0423\u0447\u0430\u0441\u0442\u043d\u0438\u043a \u043a\u043b\u0430\u043d\u0430",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8\/9hAAACPUlEQVR42oWTA69cURSF+y\/e2LYt9LG2bduOatu2bdu2bTtanX2Sc5uJ5hvh3rXOZiWiSGHXi\/TuzRJn4JssnoQim4EsnoDEFYTEEYAsFIM8k4Y8kYTEHfxG95KGi42512ex2cuEnWaPx7Q9G9F\/wQwoSitDUZJFolcHTNu9EVO3roU8dw\/dSxrSksHG3CvnHIKmSU3cfvcCxKarJ6FpURvadvWw9MIhEGef3IWqRjnEVh9IQ1oy+FqktEMWiUPfowk4Qw6vhqF\/CwQm9MK3v79AjN6\/DsqqpTwCen0nAxSpHJCnUjAOaQVO671zYZ3aHbOu7Afx8vsneAe1Y7URaV3cAGTA\/lBUzqLF8gng1Ns+lb04tZePgapuFUjsfnZgvoHeDUVZMVqsmgxOz0PLhNC3PLgA06h2rKAig5uL8w2UFSVosYYb5ENGxfOGQVm9DCx\/ZWED4WTKnTj\/+iF0HRtAGoxCpHEWNlh+6zgcSwewVDiUIt0nNnkL14C6YBreBpbxXYRaHHx2A5qWtWlmeBr5XWi+dAI4Q4+uga5zQxj6NmNCjqF3U8iicaETbJDohyyWgKFXU3Bmnt4Fbas60Lati5nn94BTY9IQ2gmqgzBIGykcCkvdsDpefPkAYv+Ni1DVroCqZjmm7d8MTuNxIyALx8hAGGUTLYbI4KFxJhEZ0cjSjVR1Vjh14xpQN6gGeToNsY0N02fS\/t9ItWOTyOj5nltpioatsdjoARnT9Ek8IfqfFuk7W2etk4n\/ARUaKpWyJiKgAAAAAElFTkSuQmCC"
+  },
+  {
+    "permList": [
+      {
+        "permsid": "b_virtualserver_token_use",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_semi_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_temporary",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_join_power",
+        "permvalue": 30,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_subscribe_power",
+        "permvalue": 40,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_description_view_power",
+        "permvalue": 40,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_icon_id",
+        "permvalue": -1673046648,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_group_is_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_auto_update_type",
+        "permvalue": 20,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_sort_id",
+        "permvalue": 5,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_add_power",
+        "permvalue": 55,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_remove_power",
+        "permvalue": 55,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_clones_uid",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_avatar_filesize",
+        "permvalue": 200000,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_channel_subscriptions",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_info_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_serverquery_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_server_power",
+        "permvalue": 30,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_channel_power",
+        "permvalue": 30,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_ban_power",
+        "permvalue": 30,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_move_power",
+        "permvalue": 30,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_private_textmessage_power",
+        "permvalue": 30,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_channel_textmessage_send",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_talk_power",
+        "permvalue": 30,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_poke_power",
+        "permvalue": 30,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_whisper_power",
+        "permvalue": 30,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_download_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_file_browse_power",
+        "permvalue": 50,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_ft_quota_mb_download_per_client",
+        "permvalue": 200,
+        "permnegated": 0,
+        "permskip": 0
+      }
+    ],
+    "name": "\u0414\u0440\u0443\u0433 \u043a\u043b\u0430\u043d\u0430",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8\/9hAAACmUlEQVR42l2TA6wlURBEJ5Y2Wjwba9u2bdu2bdu2bdv6ts0nbGqn7hcqqaTTXaeHV6LKaaqYZV8pp6uaVcFaE8o6DWHs1B6mvt1g7d8Dps4dRK+8pSaYYZZMAWyVnSEPQFjVpCmsI3pj8rk9OPjpIY59eYIJZ3bCPKwXVI2bigyzZMhyAbehvLE6VPUbwziiF\/Z9uIfSYo8zZpglQ5YLssppq0BRtS50vTphxcNzKNDr2CDhAnHGDLNkZDZHElc3VBO3bps1FN5\/flA3Q7+g3v55qLt\/Lm6EfgbFGTPMkiErFlSw1YK2S3tMvXEIlNPnQc3t02EY1J1mLXoUM8ySKVygqF4PhiE9cC\/iO6in0X9gnj6IV6JZix7FDLNkxAK+EIYsMwYjxZldGDJPHgBVoyY068Llaa4cWGYOhrppM5CVuEnfrwsqbZ2MAr2ND4Z97fjCR2DNHuX2+1Bpx1ToB3SFomZ9SLr2bbDxwUVs\/HgLmW4HqGRHFla+u4qBl7fRrEWP4l0e\/f0ce1\/chqlrR0j2EX3gkbfyJeV4XCiuhNxM4eJijsr2OFF5TH9IlcYPQFxOOhzyINWVg3OBb3Fedmmxx1mWDPJCoRmJsI7uC8kwuLtj75cHvH1xexMeH8HQ67uw+dUNbHojjM2vb2DYrd2Y8+IMMty5wlve3+J7cEraPh2fjjq+BemuXOR63Zh4YTfqTB8JXe9Ohdb36Yy6s0dj8b1TfIkiN+LoZpCVaq+b0KH3srnOeWcPYPGFIxi+YQXUzZpDUa0uKlSqLayoUR\/qVi0x5\/AuLLt6HPPPHUCfFfNdddZOaC\/VithSptrase1MvTs\/sXbp5DC1aE2o8FctOGiKKnVgadMW1u6dHea+XZ9WXz+uPdn\/hlJ2Um481WcAAAAASUVORK5CYII="
+  },
+  {
+    "permList": [
+      {
+        "permsid": "b_virtualserver_token_use",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_info_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_semi_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_temporary",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_join_power",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_subscribe_power",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_channel_description_view_power",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_icon_id",
+        "permvalue": 982208454,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_auto_update_type",
+        "permvalue": 15,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_sort_id",
+        "permvalue": 10,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_clones_uid",
+        "permvalue": 0,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_channel_subscriptions",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_request_talker",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_info_view",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_serverquery_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_server_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_channel_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_ban_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_move_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_whisper_power",
+        "permvalue": -1,
+        "permnegated": 0,
+        "permskip": 0
+      }
+    ],
+    "name": "\u0413\u043e\u0441\u0442\u044c",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8\/9hAAACKUlEQVR42o1T44ImQRCbt1h9tnlr27Zt4e\/Z+HU2HuBs27Zt28x19VrISEm6q9IjEFwkZjU71rpIzR9dVTa427whDg+DLCWWDn7vbvcBfSMOcUnTKday4z074KqwEpGL0uaOx9qrx7H+2glkLZgEWVoc3B0+nENc0pBW6HADHW46JyTREchZOg19UbRyFiQxkXDTO9HJJy0ZfOx84W7xgjwnCRdePkBf3Hz3DPK8ZLhbvXoafBZ6PPCPivwUPPj4Gn3x4usHKApTeH96anoZuBlGQZoYgxl7V6MvZh\/eBFlyLNyMowY3cFXaIPIJgKI4DUtP7sTrb5\/w9vtnrDyzB8rSdIj8AimJQQxkFriq7fAY5cdnoW7MhW5iJXSTqqBuyoM0KQYenn7EIW5vA4qGpibyD+Rxqepy4JzeiIjl4xDJjlEzGqGqz+XfRAFBxO2KU3CVs+zNnpBEhXPh1AOrcfblPfz88xud+P33D86zZGYcWgd1Qy5FzTReIK1AddPIYeOa8PDTGwyHZ1\/eIWpiG0SBQdQPZqCx86W68fwxjBTbLp+CJCIcrhoHn8FHqiuEzeDV148YDu9\/fEHk5K4ZfBZYM9ZRPdK4KFhHV2Lfo6sYDIee3IDnhFpI46P4qiUtpaBjN+\/JRMJKUZalI2v5NCw\/vxd7H13hx4oL+5C3aiaUFRk0dS4mDWm7\/0i5ZZ2bzvGZsqZEZBkJtHTpoHv+jn2jn+kzcUlD2v9vEDdSkXjM4QAAAABJRU5ErkJggg==",
+    "defaultServerGroup": true
+  },
+  {
+    "permList": [
+      {
+        "permsid": "b_virtualserver_token_use",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_semi_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_temporary",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_icon_id",
+        "permvalue": 1831137137,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_group_is_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_auto_update_type",
+        "permvalue": 15,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_sort_id",
+        "permvalue": 15,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_add_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_remove_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_clones_uid",
+        "permvalue": 0,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_serverquery_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_server_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_channel_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_ban_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_move_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_private_textmessage_power",
+        "permvalue": -1000,
+        "permnegated": 1,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_private_textmessage_power",
+        "permvalue": 1000,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_server_textmessage_send",
+        "permvalue": 0,
+        "permnegated": 1,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_channel_textmessage_send",
+        "permvalue": 0,
+        "permnegated": 1,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_offline_textmessage_send",
+        "permvalue": 0,
+        "permnegated": 1,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_talk_power",
+        "permvalue": -1000,
+        "permnegated": 1,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_talk_power",
+        "permvalue": 1000,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_poke_power",
+        "permvalue": -1000,
+        "permnegated": 1,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_set_flag_talker",
+        "permvalue": 0,
+        "permnegated": 1,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_whisper_power",
+        "permvalue": -1000,
+        "permnegated": 0,
+        "permskip": 0
+      }
+    ],
+    "name": "\u0417\u0430\u0431\u0440\u0430\u0442\u044c \u0433\u043e\u043b\u043e\u0441",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8\/9hAAAC0ElEQVR42mWUA5QjQBBE8949mzHWQmwLZ9u2bdu2bdu2bdvGqm6mV4r1q6urpyPgF5EyPZ7dN4lU6d\/EsVpI0kyQ211QRoJQlg1B4fZAqrNCkmyAOFH\/XZxi3CZ1OVPjH40qw+FEdv\/C7hBFqSFJNULh9aL\/4tl49fkjvvz8gdXH9kNVKQKFxwu5w4W0SHlINeavUq9LzQU2EczuvLrMbEfdYf1R8rLo8C7ENK6GlcMHAzVrkkPmdBsX+FYgkKAju8uO7CklsPvKWUzq3wVQKvFowzpyIknS\/xQQrMqzn2KEMhzA4iO7i8GXHt\/HtunjCb6+ZgW1IzPYyDEJiGM0kCTqyX5UlXJYemxvEfge1k4cQfDt9asR07AqZcSyoqK5Agl6SPVWDJo1A+X7dcWIzcsL4PWTRhF8bNEcxLWvi6GL5yExGCa3zDkJ0Bu5y4Os7GwMWr0Q47avxpsvn7Bu0kiCH2xaj1bzJ6DcsB4k7G7UCFK1ucBBwehef\/yAqbs2wDKwHa6sXkbwqSXzcObBLdx59QzOAR3w598\/6GpWh1RrKSKQZKD0t546RmkP7Nyc4GfbNuPCo7tU1TeiKwasWYDMrCwoAn5I0015LahIgLdAAR1fNIfgjVPGwDusCwUaGtUDzkEdSKjnjMmQ25yUGy8uYBPgp4qO7LQ+NGe83rkd8w5uR\/tFU1BubG9M37OJ4KV7tkPh87HqZjAuTyBe901mdmDZwH6AQoGrrPf4rg1I4G9mBoHH7lxDjRH9+G7QtMRxWrLPBH4I+GJwS6heHU82bkBMg6owdWgKdbem2HHpNL7++gFd7xZIbVwTcYEQmxjNn6rzNRCwhdBIteavrrr1ofD7EBUO4tnbN3yJGPwT3\/\/8wpcf3\/H1xw806NKd8iKB3AVMEvCVlAY9GonatF2SbvrB85BZHDRWlgvdWeq0PKx3bv+7KFq9mW8x\/yv4D9Y+K\/qUd84vAAAAAElFTkSuQmCC"
+  },
+  {
+    "permList": [
+      {
+        "permsid": "b_virtualserver_token_use",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_semi_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_temporary",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_icon_id",
+        "permvalue": -1223802622,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_group_is_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_auto_update_type",
+        "permvalue": 15,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_sort_id",
+        "permvalue": 16,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_add_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_remove_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_clones_uid",
+        "permvalue": 0,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_is_sticky",
+        "permvalue": 1,
+        "permnegated": 1,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_ignore_sticky",
+        "permvalue": 0,
+        "permnegated": 1,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_serverquery_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_server_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_channel_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_ban_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_move_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      }
+    ],
+    "name": "\u041e\u0431\u0435\u0437\u0434\u0432\u0438\u0436\u0438\u0442\u044c",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8\/9hAAAC5ElEQVR4AWVTA5QcQRSc2NYKs8LZtm3bsW3btm3btm3bZ75UpvuIGqG76psh6CQxUHHXLp7KJFNoYQupryfYEF9IvNwhMLEGT2EMbr38yiR7CaecrOGuP2SRr2cOiY8Htl4+hV85WRixcTnELi7ga0wpufpFORqGqrGG1IrI1gGKlDAUFBeB4M67F9QLvo5ZBdGvkwIHmrYq\/97FcMRMgaElxE7OkCcEQzsuAwPPbMS8a4fgNrE\/xM7O4KlNKMGfI3+s34A8ywWyGRKj1N8LhgOSMePiPtz7\/g6v\/n5D2rHlUPWLJyFwAqbw59Ui04uReHtg2LaVyCrMQ03YLxoMeWwQgg2N8LFBQwTwlbVywciiAvDw6zv8446oA\/NRWFKMqhg1uAs+NW2CIF1DGkptgQh\/fM78hezCfATumVlB7HFyNR7v3w5IJMg\/e4aWVmBsBZ7MCJ2kVQTEbq4YsHYhRp\/ZihX3T6MciSPj8blNC8wa2x8rzhyCPDGEiojsHSE0swFf3wI8pTEYUgE2yAfaUal4\/vsLKC5dQoGQj4T0YKh6xUDVOxZzj+yE0+je0KREQBXqD9bZhYqQMoJ4oeobR7kH1i9AJq8DFRmyayWUXaMwaed6EHz48wOvfnzB888fsGDHVpCuZYgbpFm8pw2mpB8d2lD3CaYd306tmw3KwLZb55Cwcx6it85E2KJxsOuVBpG1PRiufbPYUF8smTIcEIuR0icKujO6g2Dy8W3UM4eh3RCyaCyCNk5GnyOrsPHGaeimRUFk55jLCCxsDpJK\/OK8IB5ohqdAPTgJBNMPb4OySyTWnziMxx\/f4sX3T\/iVmwWC3vNnQOTidJQRJ\/lbSwO9sz\/\/\/onzj+\/RWSAtnZOfh1HrloEN9oHcxxNKLnGa9EhETh+Fmbs2QernlSXpGmzHqF5NaiYdHuMqDfc5LfF2zyW9L3JwpIkl8yG0tKP1F5rbcv+dIHZ1zZH4eZyQ9o9wJNz\/c2AoyF7thCgAAAAASUVORK5CYII="
+  },
+  {
+    "permList": [
+      {
+        "permsid": "b_virtualserver_token_use",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_semi_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_temporary",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_icon_id",
+        "permvalue": -1478620397,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_group_is_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_auto_update_type",
+        "permvalue": 15,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_sort_id",
+        "permvalue": 17,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_add_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_remove_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_clones_uid",
+        "permvalue": 0,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_serverquery_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_server_power",
+        "permvalue": 1000,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_channel_power",
+        "permvalue": 1000,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_ban_power",
+        "permvalue": 1000,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_move_power",
+        "permvalue": 1000,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_poke_power",
+        "permvalue": 1000,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_whisper_power",
+        "permvalue": 1000,
+        "permnegated": 0,
+        "permskip": 0
+      }
+    ],
+    "name": "\u041d\u0435 \u0431\u0435\u0441\u043f\u043e\u043a\u043e\u0438\u0442\u044c",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8\/9hAAACjElEQVR42k2Tg3pcYRiEz13Utm3btm3bZmzbtm3bNh\/F1nTnb3LaN1jOfJbIqOmLZo6etcRz7JJVbRO2bsGUE\/sx7eoxTL99in98Lt6bsG0r+B1+l5q\/4mmLZiveaBm3ci0mH96D1e9uwyEtEj39fRihb2AAzhkxWPfpPiYf2YtxK9eBGmql0TOWeIxbsVZEeGyvL4tS60phkhwMY8VfUl0JSO9AP154mmHqucPChFqJKU0+tAcPbHVBkmtKsObXI0y\/e1ouY\/bXm1ho9QrNPR0gj92MmQnL6ZBY8+LnV0DS68ow89kF0HD8+o0Yv24DJh3cjZnPL+JbrBtIQ0cLyPK3t0RPJKbuoqiPzP1wXQjGLliJMXOXY\/yGjZh64Qg0wtxBtFL9sdj6DYhvXjKmnNwPadq14yCZDRUi3fFrN2DMnGUQ4otHoB3hBWIcG4CZLy+JcuJrikColSgS7rE+mHblGA1ksfpwZPOEYEy9fFSUNv3WSahEuoPwuWygGest3ph0YLdIWyvcU45M4wkbN9FcGCtHuMkGcgnpjRWY\/eWGaJhmmAeIWXyQLGZPaEBRTGX+vxLYCPeseBCO6kuMK4hpXKBIW4jnLVc0dgUm7d+FWW+vgAQVpGHKqQOQOIqlr66D1LU3gagl+7JhrJmjZGRFabsw48l5xA5HX\/n2NiZyjFwkrvBDVwOQzv5ekcmcbzc5FZYgHpd9vYuw0myQN25m8iKJVeYdcD1feJiJdSVcX70Ef+jF+yOuqgAjvHYzZeoj9+DJY5rDw+Abk4\/uxXrFwbAn\/YMDsmhwaAheOYnY\/PUxvzMsXtpC7f8XyXNuZ0\/YWN4BO8702W1Gnbh9G8YuXd0+evZST2qo\/QNEa1ve73xHjwAAAABJRU5ErkJggg=="
+  },
+  {
+    "permList": [
+      {
+        "permsid": "b_virtualserver_token_use",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_semi_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_temporary",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_icon_id",
+        "permvalue": 988910592,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_group_is_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_auto_update_type",
+        "permvalue": 15,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_sort_id",
+        "permvalue": 18,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_add_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_remove_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_clones_uid",
+        "permvalue": 0,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_client_ignore_bans",
+        "permvalue": 1,
+        "permnegated": 1,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_serverquery_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_server_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_channel_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_ban_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_move_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      }
+    ],
+    "name": "\u0410\u043d\u0442\u0438-\u0431\u0430\u043d",
+    "icon": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8\/9hAAACO0lEQVR42o2TY8PcUBhE8yteaW3bqm3btm3pe23btm3btt1p5tbuWSZ5zlxLJD3PpktX2RdkaJ2Ps2x+5ETjUJQsAnW10uKjKFUEObE4+Iw1rKUj5AyT25Shcz7KcviRm0xCVakE9O1qoO2y8Th27ypO3L+G9isnQt++JlSVS4qaLGcAdOhKGTrXwmxPCMoyReHu3giDti\/A2Ye38DPnH93G0B2L4O3ZVNTSoStlmj1P8ooWxMAVM\/Dw1XP8iyevX2Dwylmgk2nxPpPYHXX1MqKF\/+XiozvCoSuxK5oGFbHt2mn8jfFHN2LU4XUgO26cgaZhRdBlgLjYfv3PATNObod9cmeM2LsMZOeNs9A2qgQRkOUKQlOvvLhJHstjfPP+HQiZdWqHkEcfXg9Cdsm1mvoVkOUOygF2vxjPqguHQDpsng7ftB4gS87t\/0Umay8dhbpmGXDppUyTRyzLgA1zQE7dvy4HdEdoRq\/fymTE9sXCoStlaJxic\/h7N\/thqVxTumLIniX4HZHBbZCbSnFXQkpX2sVyqOQtO\/HQRhDy7sN7\/I6ZJ7aLIXPu6PIcPJZ3FHLjCehaVeMu\/PP6P74DXZvqyE0kkaF3QXafMmA+kzLNXuQVyg971wbYf\/sCfubQnctw9WyMvMIFuANBhy4DjPLnYYbKgUyrD3kF80PbrAqGbF6Ay0\/u4Yr8Gb51IbTNq7IB+UT6wFo6dL8cZ8PnnjzhzOaEY1CWLgp1rbL8iBnPicQ465SfsJYO3Y\/TkJ0hbYxdsAAAAABJRU5ErkJggg=="
+  },
+  {
+    "permList": [
+      {
+        "permsid": "b_virtualserver_token_use",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_semi_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_channel_join_temporary",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "b_group_is_permanent",
+        "permvalue": 1,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_auto_update_type",
+        "permvalue": 15,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_modify_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_add_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_group_needed_member_remove_power",
+        "permvalue": 60,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_max_clones_uid",
+        "permvalue": 0,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_serverquery_view_power",
+        "permvalue": 75,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_server_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_kick_from_channel_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_ban_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      },
+      {
+        "permsid": "i_client_needed_move_power",
+        "permvalue": 25,
+        "permnegated": 0,
+        "permskip": 0
+      }
+    ],
+    "name": "\u0414\u043b\u044f \u0438\u043a\u043e\u043d\u043e\u043a(\u041f\u041a\u041c->\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c)"
+  }
+]

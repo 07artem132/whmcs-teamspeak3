@@ -1,0 +1,185 @@
+.lds-roller {
+	display: block;
+	position: relative;
+	width: 64px;
+	height: 64px;
+}
+.lds-roller div {
+	animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+	transform-origin: 32px 32px;
+}
+.lds-roller div:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #cef;
+	margin: -3px 0 0 -3px;
+}
+.lds-roller div:nth-child(1) {
+	animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+	top: 50px;
+	left: 50px;
+}
+.lds-roller div:nth-child(2) {
+	animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+	top: 54px;
+	left: 45px;
+}
+.lds-roller div:nth-child(3) {
+	animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+	top: 57px;
+	left: 39px;
+}
+.lds-roller div:nth-child(4) {
+	animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+	top: 58px;
+	left: 32px;
+}
+.lds-roller div:nth-child(5) {
+	animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+	top: 57px;
+	left: 25px;
+}
+.lds-roller div:nth-child(6) {
+	animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+	top: 54px;
+	left: 19px;
+}
+.lds-roller div:nth-child(7) {
+	animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+	top: 50px;
+	left: 14px;
+}
+.lds-roller div:nth-child(8) {
+	animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+	top: 45px;
+	left: 10px;
+}
+@keyframes lds-roller {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+
+/*Общее*/
+.panel-default>.panel-heading {
+	text-align:center;
+	color: #EFEFEF;
+	background-color: #1C82CC;
+}
+.panel-title {
+	font-weight: 700;
+}
+
+/*Информация об услуге*/
+.ts3-product {
+	line-height: 3;
+}
+.ts3-offline {
+	font-size: 14px;
+	color: #a94442;
+	vertical-align: middle;
+}
+.ts3-online {
+	font-size: 14px;
+	color: #3c763d;
+	vertical-align: middle;
+}
+.ts3-product .onoff {
+	font-size: 8px;
+	padding: 5px 7px;
+}
+.ts3-info {
+	line-height: 2;
+	margin-top: 6px;
+}
+.ts3-address i {
+	font-size: 20px;
+}
+.ts3-address .fa-pencil {
+	font-size: 16px;
+	vertical-align: middle;
+}
+.ts3-address .ok i {
+	color: #5CB85C;
+}
+.ts3-address i.fa-question-circle {
+    font-size: 14px;
+	margin-left: 5px;
+}
+.ts3-address .cancel i {
+	color: #D9534F;
+}
+
+/*Автонастройки*/
+.body-auto {
+	padding: 30px 15px;
+}
+
+/*Дополнительные услуги*/
+.body-dop {
+	padding:0px;
+}
+.jts3 {
+	padding: 10px 0;
+}
+.ts3po {
+	padding: 10px 0;
+	border-top: 1px solid #eee;
+	background-color: #FFC91F;
+}
+.ts3po a, .jts3 a {
+	font-weight: 700;
+	margin: 15px 0;
+}
+.ts3po p {
+	margin: 15px 0;
+	color: #403308;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+/*Таблицы банов и ключей привилегий*/
+.table {
+	margin-bottom:0px;
+}
+.table-overflow {
+	max-height: 20vh;
+	overflow-y: auto;
+}
+.table-overflow table thead th {
+	position: sticky; top: 0;
+	background:#eee;
+}
+.bans .table {
+	margin-bottom:0;
+}
+.ts3-ban-create th{
+	text-align: center;
+}
+.ts3-ban-create td{
+	padding: 10px;
+}
