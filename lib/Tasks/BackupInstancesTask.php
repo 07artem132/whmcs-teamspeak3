@@ -2,6 +2,13 @@
 /**
  *  Created by PhpStorm.
  *  User: Артём
+ *  Date time: 13.11.2019, 15:34
+ *
+ */
+
+/**
+ *  Created by PhpStorm.
+ *  User: Артём
  *  Date time: 27.09.19 20:59
  *
  */
@@ -9,7 +16,9 @@
 namespace WHMCS\Module\Addon\TeamSpeak3\Tasks;
 
 use Illuminate\Support\Collection;
+use Throwable;
 use WHMCS\Database\Capsule;
+use WHMCS\Module\Addon\TeamSpeak3\Configs\ModuleConfig;
 use WHMCS\Module\Addon\TeamSpeak3\Controllers\TeamSpeak3BackupController;
 use WHMCS\Module\Addon\TeamSpeak3\Controllers\TeamSpeak3Controller;
 use WHMCS\Module\Addon\TeamSpeak3\Interfaces\TaskInterfaces;
@@ -43,14 +52,14 @@ class BackupInstancesTask implements TaskInterfaces
 
                 foreach ($onlineServers as $server) {
                     try {
-                        $backupController->createBackup($server, 7, 'auto');
+                        $backupController->createBackup($server, ModuleConfig::getKeepDaysBackupAuto(), 'auto');
                         echo 'backup done->' . (string)$server->getUid() . PHP_EOL;
-                    } catch (\Throwable $e) {
+                    } catch (Throwable $e) {
                         echo 'error->' . $e->getMessage();
                         echo $e->getTraceAsString();
                     }
                 }
-            } catch (\Throwable $e) {
+            } catch (Throwable $e) {
                 echo 'error->' . $e->getMessage();
                 echo $e->getTraceAsString();
             }

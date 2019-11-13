@@ -2,6 +2,13 @@
 /**
  *  Created by PhpStorm.
  *  User: Артём
+ *  Date time: 13.11.2019, 15:34
+ *
+ */
+
+/**
+ *  Created by PhpStorm.
+ *  User: Артём
  *  Date time: 27.09.19 18:03
  *
  */
@@ -233,34 +240,12 @@ class TeamSpeak3BackupController
     {
         $uidList = $this->storageController->getUidList();
         foreach ($uidList as $uid) {
-            $this->storageController->removeEmptyDirTag($uid);
-
-            $backupList = $this->getBackupList($uid);
-
-            if ($backupList->count() == 1 && !$removeLastBackup) {
-                return;
+            try {
+                $this->removeOldBackup($uid, $removeLastBackup);
+            } catch (Exception $e) {
+                echo $e->getMessage();
+                echo $e->getTraceAsString();
             }
-
-            if (!$removeLastBackup) {
-                $backupList = $backupList->sortBy('create_at')->take($backupList->count() - 1);
-            }
-
-            $diffDate = Carbon::now();
-
-            $backupList->each(function (Collection $backupInfo) use ($diffDate) {
-                $expire_at = $this->storageController->getExpireBackupInfo(
-                    $backupInfo->get('uid'),
-                    $backupInfo->get('tag'),
-                    $backupInfo->get('backupDate'),
-                    );
-                if ($expire_at->diffInSeconds($diffDate, false) > 0) {
-                    $this->storageController->deleteBackup(
-                        $backupInfo->get('uid'),
-                        $backupInfo->get('tag'),
-                        $backupInfo->get('backupDate'),
-                        );
-                }
-            });
         }
     }
 }

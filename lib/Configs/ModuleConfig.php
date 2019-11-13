@@ -2,6 +2,13 @@
 /**
  *  Created by PhpStorm.
  *  User: Артём
+ *  Date time: 13.11.2019, 15:34
+ *
+ */
+
+/**
+ *  Created by PhpStorm.
+ *  User: Артём
  *  Date time: 20.07.19 15:46
  *
  */
@@ -17,17 +24,9 @@ class ModuleConfig
     private static $defaultLanguage = 'russian';
     private static $whmcsRootDir = ROOTDIR;
     private static $moduleName = 'TeamSpeak3';
-    private static $keepDaysBackupManual = 360;
+    private static $keepDaysBackupManual = 10;
+    private static $keepDaysBackupAuto = 7;
     private static $keepDaysBackupPreDelete = 360;
-
-    /**
-     * @return int
-     */
-    public static function getKeepDaysBackupPreDelete(): int
-    {
-        return self::$keepDaysBackupPreDelete;
-    }
-
     private static $ProductFieldWithAListOfDomains = 'Домен';
     private static $ProductFieldWithASlots = 'Slots';
     private static $ProductFieldWithASubDomain = 'Субдомен';
@@ -160,6 +159,21 @@ class ModuleConfig
     ];
     private static $subDomainRegex = '/^[a-zA-Z0-9-]+$/';
 
+    /**
+     * @return int
+     */
+    public static function getKeepDaysBackupPreDelete(): int
+    {
+        return self::$keepDaysBackupPreDelete;
+    }
+
+    /**
+     * @return int
+     */
+    public static function getKeepDaysBackupAuto(): int
+    {
+        return self::$keepDaysBackupAuto;
+    }
     /**
      * @return bool
      */

@@ -2,6 +2,13 @@
 /**
  *  Created by PhpStorm.
  *  User: Артём
+ *  Date time: 13.11.2019, 15:34
+ *
+ */
+
+/**
+ *  Created by PhpStorm.
+ *  User: Артём
  *  Date time: 27.09.19 18:03
  *
  */
@@ -55,7 +62,10 @@ class TeamSpeak3BackupStorageController
     public function getUidList()
     {
         try {
-            return collect($this->localStorage->getFileList('/backups'));
+            return collect($this->localStorage->getFileList('/backups'))
+                ->transform(function ($value) {
+                    return base64_decode($value);
+                });
         } catch (NotExistDirException $e) {
             return collect([]);
         }
@@ -208,7 +218,7 @@ class TeamSpeak3BackupStorageController
                     '.json',
                     '',
                     str_replace($path . '/' . $prefix . '/', '', $backupPath),
-                    ));
+                ));
             })->values());
         });
 
@@ -228,9 +238,9 @@ class TeamSpeak3BackupStorageController
             return;
         }
 
-        $ListPrefix->each(function (string $pathPrefix) {
-            if ($this->localStorage->count($pathPrefix) === 0) {
-                $this->localStorage->rmdir($pathPrefix);
+        $ListPrefix->each(function (string $pathPrefix) use ($path) {
+            if ($this->localStorage->count($path . '/' . $pathPrefix) === 0) {
+                $this->localStorage->rmdir($path . '/' . $pathPrefix);
             }
         });
     }
