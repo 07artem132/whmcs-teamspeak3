@@ -2,6 +2,13 @@
 /**
  *  Created by PhpStorm.
  *  User: Артём
+ *  Date time: 20.11.2019, 10:11
+ *
+ */
+
+/**
+ *  Created by PhpStorm.
+ *  User: Артём
  *  Date time: 08.09.19 14:47
  *
  */
@@ -32,7 +39,7 @@ class TeamSpeak3InstanceController extends TeamSpeak3_Node_Host
         if ($this->serverList === null) {
             try {
                 $servers = $this->request("serverlist -uid")->toAssocArray("virtualserver_id");
-            } catch (\TeamSpeak3_Adapter_ServerQuery_Exception $e) {
+            } catch (TeamSpeak3_Adapter_ServerQuery_Exception $e) {
                 if ($e->getMessage() !== 'database empty result set') {
                     throw  $e;
                 }
@@ -203,6 +210,13 @@ class TeamSpeak3InstanceController extends TeamSpeak3_Node_Host
         $this->serverListReset();
 
         $detail = $this->execute("servercreate", $properties)->toList();
+        //this is magic bug fix
+        //I don’t know why there is an error that
+        //I fixed in this way, and probably not when I don’t recognize ..
+        //since this is TeamSpeak 3 ...
+        if (count($detail) != 3) {
+            $detail = end($detail);
+        }
         $server = new TeamSpeak3VirtualServerController($this, array("virtualserver_id" => intval($detail["sid"])));
 
         TeamSpeak3_Helper_Signal::getInstance()->emit("notifyServercreated", $this, $detail["sid"]);
