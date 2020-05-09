@@ -35,7 +35,6 @@ class TeamSpeak3VirtualServerStatsController
         $this->virtualServerList = $this->storageController->getUidListCacheFile();
         $this->lastStats = $this->storageController->getLastStatsCacheFile();
         $this->statsDate = $this->storageController->getDateStatsExistsCacheFile();
-
     }
 
     private function addVirtualServerToList(string $uid): void
@@ -87,6 +86,7 @@ class TeamSpeak3VirtualServerStatsController
         }
 
         if ($this->getOnlineFromLastStats($uid) !== $online || !$this->isExistStatsUidForDay($uid, $date)) {
+            dump('Processing new data');
             $this->addOnlineToLastStats($uid, $online);
             $this->storageController->pushOnlineStats($uid, $date, $online);
         }
@@ -180,7 +180,7 @@ class TeamSpeak3VirtualServerStatsController
 
         for ($i = 0; $i <= 7; $i++) {
             $date = $today->copy()->subDay($i);
-            if ($this->isExistStatsUidForDay($uid,$date)) {
+            if ($this->isExistStatsUidForDay($uid, $date)) {
                 $stats = $stats->merge($this->storageController
                     ->loadOnlineStats($uid, $date))
                     ->keyBy(function ($item) {

@@ -8,14 +8,15 @@
 
 namespace WHMCS\Module\Addon\TeamSpeak3\Controllers;
 
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Support\Collection;
+use Throwable;
 use WHMCS\Module\Addon\TeamSpeak3\Configs\ModuleConfig;
 use WHMCS\Module\Addon\TeamSpeak3\Exceptions\DomainEditNotMatchDomainFromUrlException;
 use WHMCS\Module\Addon\TeamSpeak3\Exceptions\PowerDnsClientException;
 use WHMCS\Module\Addon\TeamSpeak3\Models\ServiceDomainModel;
 use WHMCS\Module\Addon\TeamSpeak3\Models\ServiceVirtualServerModel;
 use WHMCS\Product\Product;
-use \Illuminate\Database\Eloquent\ModelNotFoundException;
 
 class TeamSpeak3DomainController
 {
@@ -120,6 +121,18 @@ class TeamSpeak3DomainController
         return !$domainRecord->contains('name', $fullDomain);
     }
 
+    function subDomainIsNotBlacklist(string $sub_domain): bool
+    {
+        $re = '/^s\d+$/';
+
+        preg_match($re, $sub_domain, $matches, PREG_OFFSET_CAPTURE, 0);
+        if (empty($matches)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     function subDomainVerifyForServer(string $sub_domain, string $domain, int $port, string $server_hostname): bool
     {
         $fullDomain = sprintf('_ts3._udp.%s.%s.', strtolower($sub_domain), strtolower($domain));
@@ -146,7 +159,7 @@ class TeamSpeak3DomainController
      * @param string $domain
      * @param bool $anonPay
      * @throws PowerDnsClientException
-     * @throws \Throwable
+     * @throws Throwable
      * @throws DomainEditNotMatchDomainFromUrlException
      */
     function createSubDomain(int $service_id, string $sub_domain, string $domain, bool $anonPay): void

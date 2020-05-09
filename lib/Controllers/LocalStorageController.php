@@ -97,6 +97,7 @@ class LocalStorageController
     function put(string $path, string $data): void
     {
         if (file_put_contents($this->basePath . $path, $data) === false) {
+            dump('error save->' . $this->basePath . $path);
             //todo throw new error save
         }
     }

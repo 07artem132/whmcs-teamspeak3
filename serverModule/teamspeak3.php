@@ -62,6 +62,18 @@ function teamspeak3_ConfigOptions()
 
 function teamspeak3_ClientArea(array $params)
 {
+    if ($_GET['p'] == 'order') {
+        return array(
+            'tabOverviewReplacementTemplate' => 'templates/orderbot.tpl',
+        );
+    }
+
+    if ($_GET['p'] == 'bot') {
+        return array(
+            'tabOverviewReplacementTemplate' => 'templates/bot.tpl',
+        );
+    }
+
     try {
         try {
             $ts3 = new TeamSpeak3Controller($params['serverid']);
@@ -70,7 +82,7 @@ function teamspeak3_ClientArea(array $params)
             $version = $ts3->getInstance()->version();
             $virtualServerStatus = $virtualServer->isOnline();
             $port = $virtualServer['virtualserver_port'];
-        } catch (\Throwable  $e) {
+        } catch (Throwable  $e) {
             $instanceStatus = false;
             $version = null;
             $virtualServerStatus = false;
@@ -220,6 +232,10 @@ function teamspeak3_CreateAccount(array $params)
 
             if (!$ts3DomainController->subDomainIsNotExits($subDomain, $domain)) {
                 return 'Данный адрес уже занят другим клиентом';
+            }
+
+            if (!$ts3DomainController->subDomainIsNotBlacklist($subDomain)) {
+                return 'суб домен находится в блек листе';
             }
         }
 

@@ -112,12 +112,15 @@ add_hook('ShoppingCartValidateProductUpdate', 1, function ($vars) {
     if (!$teamSpeak3DomainController->subDomainRegexValidation($subDomain)) {
         return 'Допускаются только символы a-Z, 0-9 а так же -';
     }
+    if (!$teamSpeak3DomainController->subDomainIsNotBlacklist($subDomain)) {
+        return 'Данный суб домен занесен в черный список администратором';
+    }
 
     try {
         if (!$teamSpeak3DomainController->subDomainIsNotExits($subDomain, $domain)) {
             return 'Данный адрес уже занят другим клиентом';
         }
-    } catch (\Exception $e) {
+    } catch (Exception $e) {
         return 'Произошла ошибка при обращении к серверу буквенных адресов';
     }
 

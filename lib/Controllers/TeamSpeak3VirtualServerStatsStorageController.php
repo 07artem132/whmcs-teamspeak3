@@ -9,6 +9,7 @@
 namespace WHMCS\Module\Addon\TeamSpeak3\Controllers;
 
 use Carbon\Carbon;
+use JsonException;
 use WHMCS\Module\Addon\TeamSpeak3\Configs\ModuleConfig;
 
 /**
@@ -59,7 +60,11 @@ class TeamSpeak3VirtualServerStatsStorageController
      */
     public function getLastStatsCacheFile(): array
     {
-        return json_decode($this->localStorage->get('/virtual_server_last_stats.json'), true);
+        try {
+            return json_decode($this->localStorage->get('/virtual_server_last_stats.json'), true, 512, JSON_THROW_ON_ERROR);
+        } catch (JsonException $e) {
+            return [];
+        }
     }
 
     /**
@@ -68,6 +73,7 @@ class TeamSpeak3VirtualServerStatsStorageController
     public function setLastStatsCacheFile(array $collection): void
     {
         $this->localStorage->put('/virtual_server_last_stats.json', json_encode($collection));
+        dump('put cache file');
     }
 
     /**
@@ -75,7 +81,12 @@ class TeamSpeak3VirtualServerStatsStorageController
      */
     public function getDateStatsExistsCacheFile(): array
     {
-        return json_decode($this->localStorage->get('/virtual_server_date_stats.json'), true);
+        try {
+            return json_decode($this->localStorage->get('/virtual_server_date_stats.json'), true, 512, JSON_THROW_ON_ERROR);
+        } catch (JsonException $e) {
+            //todo пересканировать все папки, и создать новый файл кеша
+            return [];
+        }
     }
 
     /**
@@ -96,7 +107,7 @@ class TeamSpeak3VirtualServerStatsStorageController
 
     public function getUidListCacheFile(): array
     {
-        return json_decode($this->localStorage->get('/uid_list.json'), true);
+        return json_decode($this->localStorage->get('/uid_list.json'), true, 512, JSON_THROW_ON_ERROR);
     }
 
     public function loadSlotsStats(string $uid, Carbon $date): array
@@ -104,7 +115,7 @@ class TeamSpeak3VirtualServerStatsStorageController
         $path = "/virtual_servers/slots/{$date->year}/{$date->month}/{$date->day}";
         $uid = base64_encode($uid);
 
-        return json_decode($this->localStorage->get($path . "/$uid.json"), true);
+        return json_decode($this->localStorage->get($path . "/$uid.json"), true, 512, JSON_THROW_ON_ERROR);
     }
 
     /**
@@ -119,6 +130,9 @@ class TeamSpeak3VirtualServerStatsStorageController
 
         if (!$this->localStorage->isExitsDir($path)) {
             $this->localStorage->mkdir($path);
+        }
+
+        if (!$this->localStorage->isExits($path . "/$uid.json")) {
             $this->localStorage->put($path . "/$uid.json", json_encode([
                 [
                     'date' => $date,
@@ -127,8 +141,7 @@ class TeamSpeak3VirtualServerStatsStorageController
             ]));
             return;
         }
-
-        $stats = json_decode($this->localStorage->get($path . "/$uid.json"), true);
+        $stats = json_decode($this->localStorage->get($path . "/$uid.json"), true, 512, JSON_THROW_ON_ERROR);
         $stats[] = [
             'date' => $date,
             'slots' => $slots
@@ -141,7 +154,12 @@ class TeamSpeak3VirtualServerStatsStorageController
     {
         $path = "/virtual_servers/online/{$date->year}/{$date->month}/{$date->day}";
         $uid = base64_encode($uid);
-        return json_decode($this->localStorage->get($path . "/$uid.json"), true);
+        try {
+            return json_decode($this->localStorage->get($path . "/$uid.json"), true, 512, JSON_THROW_ON_ERROR);
+        } catch (JsonException $e) {
+            // dump('error load stats file->'.$path . "/$uid.json");
+            return [];
+        }
     }
 
     /**
@@ -156,16 +174,20 @@ class TeamSpeak3VirtualServerStatsStorageController
 
         if (!$this->localStorage->isExitsDir($path)) {
             $this->localStorage->mkdir($path);
+        }
+        if (!$this->localStorage->isExits($path . "/$uid.json")) {
             $this->localStorage->put($path . "/$uid.json", json_encode([
                 [
                     'date' => $date,
                     'online' => $online
                 ]
             ]));
+            dump('put new file->' . $path . "/$uid.json");
             return;
         }
+        dump('add data to exits file->' . $path . "/$uid.json");
 
-        $stats = json_decode($this->localStorage->get($path . "/$uid.json"), true);
+        $stats = json_decode($this->localStorage->get($path . "/$uid.json"), true, 512, JSON_THROW_ON_ERROR);
         $stats[] = [
             'date' => $date,
             'online' => $online

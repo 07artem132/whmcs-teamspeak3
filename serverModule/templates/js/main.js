@@ -549,7 +549,7 @@ function banDecodeDuration(create_at, duration) {
         return 'Навсегда';
     }
 
-    var date = new Date((create_at * 1000) + duration);
+    var date = new Date((create_at * 1000) + duration * 1000);
 
     return ("0" + date.getDate()).slice(-2) + '-' +
         ("0" + (date.getMonth() + 1)).slice(-2) + '-' +

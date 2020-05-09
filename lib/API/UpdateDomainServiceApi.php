@@ -8,6 +8,7 @@
 
 namespace WHMCS\Module\Addon\TeamSpeak3\API;
 
+use Exception;
 use WHMCS\Module\Addon\TeamSpeak3\Abstracts\ApiValidatorAbstract;
 use WHMCS\Module\Addon\TeamSpeak3\Controllers\TeamSpeak3DomainController;
 use WHMCS\Module\Addon\TeamSpeak3\Controllers\UserApiAccessController;
@@ -77,6 +78,9 @@ class UpdateDomainServiceApi extends ApiValidatorAbstract implements ApiInterfac
         if (!$teamSpeak3DomainController->subDomainIsNotExits($_POST['subDomain'], $domain)) {
             $this->response('error', 'sub domain already exits ');
         }
+        if (!$teamSpeak3DomainController->subDomainIsNotBlacklist($_POST['subDomain'])) {
+            $this->response('error', 'sub domain is blacklist');
+        }
 
         if (!empty($OldDomain)) {
             $teamSpeak3DomainController->deleteSubDomain(
@@ -98,7 +102,7 @@ class UpdateDomainServiceApi extends ApiValidatorAbstract implements ApiInterfac
 
     /**
      * @return bool
-     * @throws \Exception
+     * @throws Exception
      */
     function isAuth(): bool
     {
